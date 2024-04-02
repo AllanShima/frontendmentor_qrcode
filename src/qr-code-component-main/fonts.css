@@ -1,0 +1,4 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(./fonts/Outfit-VariableFont_wght.ttf); /* os dois pontos significa que ele volta uma pasta (da pasta css foi para pasta src) */
+}

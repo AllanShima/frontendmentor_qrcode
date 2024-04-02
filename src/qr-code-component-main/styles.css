@@ -1,0 +1,68 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit";
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 350px;
+    height: 550px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 25px hsl(220, 15%, 83%);
+    background-color: hsl(0, 0%, 100%);
+    scale: .8;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image img {
+    width: 310px;
+    border-radius: 15px;
+}
+
+.texts {
+    position: absolute;
+    bottom: 0;
+    margin: 35px;
+    text-align: center;
+}
+
+h2 {
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(220, 15%, 70%);
+}
+
+.attribution:hover a {
+    color: hsl(218, 44%, 22%);
+}
+
+.attribution:hover {
+    color: hsl(218, 44%, 22%);
+}
